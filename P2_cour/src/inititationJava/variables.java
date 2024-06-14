@@ -7,6 +7,10 @@ public class variables {
 		int epargne = 500;
 		int revenus = 2000;
 		
+		final int NUMBEROFWEEKDAYS = 7;
+		
+		final String MESSAGE = "Hello world";
+		
 		epargne += 100;
 		
 		revenus -= 50;
@@ -20,10 +24,6 @@ public class variables {
 		String message = "Mon indemnité est de " + revenus;
 		
 		System.out.println(message);
-		
-		final int NUMBEROFWEEKDAYS = 7;
-		
-		final String MESSAGE = "Hello world";
 
 	}
 
