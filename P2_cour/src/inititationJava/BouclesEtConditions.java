@@ -25,6 +25,11 @@ public class BouclesEtConditions {
 			print(j);
 			
 		}
+		
+		//Structure conditionnelle
+		String[] arrayOfName = new String[]{"Florent","Frédéric"};
+		
+		sayHelloTo(arrayOfName);
 
 	}
 	
@@ -56,6 +61,27 @@ public class BouclesEtConditions {
 	public static int randomNumber() {
 		
 		return (int)((Math.random() * ((100 - 1) + 1)) + 1);
+		
+	}
+	
+	public static void sayHelloTo(String[] args) {
+		
+		if(args.length >= 1) {
+			
+			for(String name : args)
+			sayMessage(name);
+			
+		} else {
+			
+			sayMessage("World");
+			
+		}
+		
+	}
+	
+	public static void sayMessage(String name) {
+		
+		System.out.println("Hello " + name + " !");
 		
 	}
 
