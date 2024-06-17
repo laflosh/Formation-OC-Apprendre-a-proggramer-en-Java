@@ -1,5 +1,12 @@
 package inititationJava;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 public class variables {
 
 	public static void main(String[] args) {
@@ -26,7 +33,7 @@ public class variables {
 		System.out.println(message);
 		
 		
-		//exemple de piles de données
+		//exemple de piles de données (Penser aux imports)
 		
 		//tableau
 		int[] cupsOfCoffeePerDayOfTheWeek=new int[]{6,2,3,7,3,4,1};
@@ -51,7 +58,11 @@ public class variables {
 		
 		ingredients.add("salt"); //ajoutez du sel sur les ingrédients
 		ingredients.remove("salt"); //enlevez du sel des ingrédients
-
+		
+		//dictionnaire
+		Map<String, Integer> myMap = new HashMap<String, Integer>();
+		myMap.put("Jenny", 34);
+		myMap.put("Livia", 28);
 	}
 
 }
