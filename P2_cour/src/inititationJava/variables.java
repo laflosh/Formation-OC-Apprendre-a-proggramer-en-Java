@@ -24,6 +24,33 @@ public class variables {
 		String message = "Mon indemnité est de " + revenus;
 		
 		System.out.println(message);
+		
+		
+		//exemple de piles de données
+		
+		//tableau
+		int[] cupsOfCoffeePerDayOfTheWeek=new int[]{6,2,3,7,3,4,1};
+		
+		// Créez un tableau multidimensionnel 
+		String[][] myTheatreSeats = new String[30][12];
+		myTheatreSeats[9][5] = "James Logan";
+		
+		//list
+		List<Integer> myList = new ArrayList<Integer>(); // -> []
+		
+		myList.add(7); // -> [7]
+		myList.add(5); //-> [7, 5]
+		myList.add(1,12); //-> [7, 12, 5]
+		myList.set(0,4); // -> [4, 12, 5]
+		myList.remove(1); // removed 12 -> [4, 5]
+		
+		System.out.println(myList.size()); // -> 2
+		
+		//hashset, collection non ordonnées
+		Set<String> ingredients = new HashSet<String>();
+		
+		ingredients.add("salt"); //ajoutez du sel sur les ingrédients
+		ingredients.remove("salt"); //enlevez du sel des ingrédients
 
 	}
 

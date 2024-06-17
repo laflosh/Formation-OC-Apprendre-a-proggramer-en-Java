@@ -33,12 +33,14 @@ public class Héritage {
 		
 	}
 	
+	//héritage de figuregéométrique
 	public static class Carre extends FigureGeometrique{
 		
 		private long cote;
 		
 		public Carre(long cote, int x, int y) {
 			
+			//super = utilisation constructor mère
 			super(x,y);
 			this.cote = cote;
 			
@@ -54,7 +56,7 @@ public class Héritage {
 			return 4 * cote;
 			
 		}
-		
+
 	}
 
 }
